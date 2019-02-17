@@ -1,0 +1,13 @@
+{
+  "name" : "Pull Request",
+  "version" : "1.0",
+  "description" : "Pull Request",
+  "permissions": [
+    "browsingData"
+  ],
+  "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
