@@ -1,8 +1,9 @@
 # ChromeExtensions
 
-Chrome Extension to add copy button to the code elements in StackOverflow Website.
+1.Chrome Extension to add copy button to the code elements in StackOverflow Website.
 
-Enhancements required.
-1.should be in top right.
-2.should be visible only onHover.
-3.should toast message after copied.
+  Enhancements required.
+  >should be in top right.
+  >should be visible only onHover.
+  >should toast message after copied.
+2.Open Pull Request based on ID number
