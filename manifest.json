@@ -1,0 +1,23 @@
+{
+  "name": "CopyCode",
+  "version": "1.0",
+  "description": "Copy Code to Clipboard in StackOverFlow!",
+    "permissions": ["activeTab","declarativeContent","storage"],
+     "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+   "page_action": {
+      "default_icon": {
+        "16": "icon.png"
+        }
+    },
+    "icons": {
+      "16": "icon.png"
+          },
+    "content_scripts": [ {
+        "js": [ "content.js"  ],
+        "matches": [ "*://*.stackoverflow.com/*" ]    
+    } ],
+  "manifest_version": 2
+}

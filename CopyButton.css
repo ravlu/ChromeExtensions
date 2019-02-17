@@ -1,0 +1,8 @@
+.copy-button {
+	width:20px;
+    height:20px;
+    border: 2px solid blue;
+    font-size:10px;
+    text-align:center;
+    font-family:arial, helvetica, sans-serif;
+}
